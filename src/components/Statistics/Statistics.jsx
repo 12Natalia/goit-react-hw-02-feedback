@@ -12,11 +12,11 @@ export const Statistics = ({
       {options.map((name, index) => {
         return (
           <p key={index} className={css[name]}>
-            {name}:<span className={css.numbers}>{statistic[name]}</span>
+            {name}: <span className={css.numbers}>{statistic[name]}</span>
           </p>
         );
       })}
-      <p className={css.total} >
+      <p className={css.total}>
         Total: <span className={css.numbers}>{total}</span>
       </p>
       <p className={css.good}>
