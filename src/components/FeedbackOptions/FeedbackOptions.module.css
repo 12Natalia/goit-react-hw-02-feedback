@@ -1,0 +1,46 @@
+.wrap {
+  display: flex;
+  gap: 25px;
+}
+
+.good {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: rgb(9, 245, 9);
+}
+
+.good:hover {
+  scale: 1.25;
+}
+
+.neutral {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: yellow;
+}
+
+.neutral:hover {
+  scale: 1.25;
+}
+
+.bad {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: red;
+}
+
+.bad:hover {
+  scale: 1.25;
+}

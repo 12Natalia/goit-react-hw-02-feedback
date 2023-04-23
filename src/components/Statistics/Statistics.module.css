@@ -1,0 +1,41 @@
+.numbers {
+  font-weight: 700;
+}
+
+.good {
+  text-transform: capitalize;
+  margin: 0;
+  width: 200px;
+  padding: 15px;
+  display: block;
+  background-color: rgb(9, 245, 9);
+  font-weight: 700;
+}
+
+.neutral {
+  text-transform: capitalize;
+  margin: 0;
+  width: 200px;
+  padding: 15px;
+  display: block;
+  background-color: yellow;
+  font-weight: 700;
+}
+
+.bad {
+  text-transform: capitalize;
+  margin: 0;
+  width: 200px;
+  padding: 15px;
+  display: block;
+  background-color: red;
+  font-weight: 700;
+}
+.total {
+  text-transform: capitalize;
+  margin: 0;
+  width: 200px;
+  padding: 15px;
+  display: block;
+  font-weight: 700;
+}
